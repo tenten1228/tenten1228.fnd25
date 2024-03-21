@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* 外部フォントを取得 */
+@font-face {
+  font-family: "keshinomi";
+  src: url("../fonts/DSEG7-Classic/DSEG7Classic-BoldItalic.ttf");
+}
+
+/*　共通部分
+--------------------------------------- */
+html {
+  font-size: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+img.logo {
+  width: 500px;
+  margin-top: 5px;
+}
+
+p {
+  font-family: "keshinomi";
+  font-size: 35px;
+}
