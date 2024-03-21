@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 /* 外部フォントを取得 */
 @font-face {
   font-family: "keshinomi";
@@ -12,6 +10,42 @@ html {
   font-size: 100%;
 }
 
+body {
+  font-family: "ヒラギノ角ゴ Pro W6", "Yu Gothic UI", "Yu Gothic Medium";
+  line-height: 1.2;
+  color: #432;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 15%;
+}
+
+
+/* .big-bg {
+  background-size: cover;
+  background-position: center top;
+}
+
+#home {
+  background-image: url(../img/black.jpeg);
+  min-height: 100vh;
+  vertical-align: top;
+} */
+
 img {
   width: 100%;
 }
@@ -21,7 +55,31 @@ img.logo {
   margin-top: 5px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 p {
   font-family: "keshinomi";
-  font-size: 35px;
+  font-size: 20px;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+.main-nav a {
+  color: #432;
+}
+
+.main-nav a:hover {
+  color: #0bd;
 }
