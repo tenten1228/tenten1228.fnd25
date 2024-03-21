@@ -1,7 +1,9 @@
+@charset "UTF-8";
+
 /* 外部フォントを取得 */
 @font-face {
   font-family: "keshinomi";
-  src: url("../fonts/DSEG7-Classic/DSEG7Classic-BoldItalic.ttf");
+  src: url("DSEG7Classic-BoldItalic.ttf");
 }
 
 /*　共通部分
@@ -27,6 +29,7 @@ a {
 .page-header {
   display: flex;
   justify-content: space-between;
+  height: 50px
 }
 
 .home-content {
@@ -35,24 +38,29 @@ a {
 }
 
 
-/* .big-bg {
+.big-bg {
   background-size: cover;
   background-position: center top;
 }
 
 #home {
-  background-image: url(../img/black.jpeg);
-  min-height: 100vh;
-  vertical-align: top;
-} */
-
-img {
-  width: 100%;
+  background-image: url(../img/watercolor_00395.jpg);
+  background-size: 50%;
+  background-position: center top;
+  min-height: 90vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
 }
 
 img.logo {
   width: 500px;
   margin-top: 5px;
+}
+
+h1 {
+  margin-top: 0;
 }
 
 h2 {
@@ -62,6 +70,7 @@ h2 {
 p {
   font-family: "keshinomi";
   font-size: 20px;
+  color: white;
 }
 
 .main-nav {
@@ -70,6 +79,7 @@ p {
   text-transform: uppercase;
   margin-top: 34px;
   list-style: none;
+  margin-top: 10px;
 }
 
 .main-nav li {
@@ -82,4 +92,19 @@ p {
 
 .main-nav a:hover {
   color: #0bd;
+}
+
+#word {
+  font-size: 40px;
+  color: white;
+}
+
+p.word {
+  font-size: 30px;
+  color: white;
+}
+
+#timer {
+  font-size: 40px;
+  color: white;
 }
