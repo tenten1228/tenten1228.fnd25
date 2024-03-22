@@ -10,18 +10,18 @@ let startTime;
 let stopTime;
 let timeoutID;
 
-let audio_correct;
-let audio_failed;
+// let audio_correct;
+// let audio_failed;
 
-window.onload = () => {
-  audio_correct = new Audio();
-  audio_correct.src = "../sound/Onoma-Syakiin01-1(Long).mp3";
-  audio_correct.preload = "auto";
+// // window.onload = () => {
+// //   audio_correct = new Audio();
+// //   audio_correct.src = "../sound/Onoma-Syakiin01-1(Long).mp3";
+// //   audio_correct.preload = "auto";
   
-  audio_failed = new Audio();
-  audio_failed.src = "../sound/Quiz-Buzzer01-1.mp3";
-  audio_failed.preload = "auto";
-}
+// //   audio_failed = new Audio();
+// //   audio_failed.src = "../sound/Quiz-Buzzer01-1.mp3";
+// //   audio_failed.preload = "auto";
+// // }
 
 function displayTimer() {
   currentTime = new Date(Date.now() - startTime);
