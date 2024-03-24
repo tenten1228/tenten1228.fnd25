@@ -74,6 +74,11 @@ p#timer {
   color: white;
 }
 
+p#explanation {
+  font-size: 30px;
+  color: white;
+}
+
 .main-nav {
   display: flex;
   font-size: 20px;
